@@ -11,5 +11,15 @@ int main(){
     printf("Address of j %u\n",&j);
     printf("value of j %u\n",*(&j));
     printf("value of k %d\n",k);
+
+    char c='p';
+    char *z=&c;
+    printf("value of c is %c\n",c);
+    printf("address of c is %u\n",&c);
+    printf("value of c is %c\n",*(&c));
+    printf("address of z is %u\n",&z);
+    printf("value of z is %d\n",z);
+    printf("value of z is %d\n",*(&z));
+
     return 0;
 }
